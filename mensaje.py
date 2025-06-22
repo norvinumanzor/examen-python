@@ -5,7 +5,7 @@ def mostrar_mensaje():
     """Muestra un mensaje de alerta"""
     messagebox.showinfo("Mensaje","18 años")
 
-def mostrar_mensaje():
+def mostrar_mensaje1():
     """Muestra un mensaje de alerta"""
     messagebox.showinfo("Mensaje","Totogalpa")
 
@@ -19,7 +19,7 @@ etiqueta_usuario.pack(pady=10)
 boton= tk.Button(root, text="Edad", command=mostrar_mensaje)
 boton.pack(side='left', padx=5, pady=10)
 
-boton= tk.Button(root, text="Vivo en", command=mostrar_mensaje)
+boton= tk.Button(root, text="Vivo en", command=mostrar_mensaje1)
 boton.pack(side='right', padx=5, pady=10)
 
 # Configurar tamaño de la ventana 
